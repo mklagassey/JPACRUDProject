@@ -13,7 +13,7 @@
 	<div class="scanline"></div>
 	<div class="content clearfix">
 		<img src="https://i.redd.it/848xe5ub8xe51.jpg" alt="super mutant is not impressed">
-		<h2><a href="/"><u>GO HOME NOW!</u></a></h2>
+		<h2><a href="home.do"><u>GO HOME NOW!</u></a></h2>
 	</div>
 		<h1>PUNY HUMAN, YOU SHOULD NOT BE HERE!</h1>
 	<script type="text/javascript"

@@ -97,7 +97,7 @@ public class FOCharacterController {
 		ModelAndView mv = new ModelAndView();	
 		
 		mv.setViewName("char-added");		
-System.out.println(foCharacter.getPhoto());		
+		
 		try {
 			mv.addObject("focharacter", dao.updateCharacter(foCharacter));
 		} catch (NumberFormatException e) {
@@ -110,7 +110,6 @@ System.out.println(foCharacter.getPhoto());
 		ModelAndView mv = new ModelAndView();	
 		
 		mv.setViewName("char-deleted");		
-//		foCharacter.getPrimarySkill().contains("strength");
 		
 		try {
 			mv.addObject("focharacter", dao.deleteCharacter(foCharacter));

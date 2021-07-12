@@ -19,7 +19,7 @@ img {
 	<div class="scanline"></div>
 	<div class="content clearfix">
 SUCCESS! <br>		${focharacter.name }	ADDED/UPDATED.	
-<form action="/"><input type="submit" value="MAIN MENU"></form>
+<form action="home.do"><input type="submit" value="MAIN MENU"></form>
 <img src="fallout-boy.png" alt="vault tec" />
 	</div>
 	
