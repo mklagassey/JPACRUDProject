@@ -18,19 +18,21 @@
 				</div>
 <form action="AddChar.do" method="POST">
 				<input type="hidden" name="born" value="<%= (new java.util.Date().toString()) %>" /><br>
-										<div class="col two">
+				<input type="hidden" name="photo" value="vault-boy-default.png" /><br>
 				
-				<label
-						for="name">Name:</label> <input type="text" name="name"
-						value="${focharacter.name}" /> <br> <label for="faction">Faction:</label>
-					<input type="text" name="faction" value="${focharacter.faction}" /><br>
-					<label for="born">Born:</label> <input type="text" name="born"
-						value="${focharacter.born}" /><br> <label for="caps">Amount
-						of caps :</label> <input type="text" name="caps"
-						value="${focharacter.caps}" /> <br>
+				<div class="col two">
+				
+				<label for="name">Name:</label> 
+				<input type="text" name="name" value="" /> <br> 
+				<label for="faction">Faction:</label>
+				<input type="text" name="faction" value="" /><br>
+				<label for="born">Born:</label> 
+				<input type="text" name="born" value="" /><br> 
+				<label for="caps">Amount of caps :</label> 
+				<input type="text" name="caps" value="" /> <br>
 				/////////////////////////////////////////////////////////////<br>
 				
-				<h3>Current skill: ${focharacter.primarySkill}</h3>
+				<h3>Current skill: none</h3>
 					<label for="primarySkill">-- Choose a S.P.E.C.I.A.L. Skill
 						--</label> <select name="primarySkill" id="primarySkill">
 						<optgroup>
