@@ -124,7 +124,7 @@
 								<c:if test="${!focharacter.alive }">checked</c:if>> <span
 								class="checkmark"></span>
 							</label> <br>
-
+							+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<br>
 							<h4>Click "Submit" to finalize changes to character DB entry</h4>
 							<input type="submit" value="Submit">
 						</form>
